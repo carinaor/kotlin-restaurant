@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.restaurant.onlineapp.MainActivity">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/actionHome"
+            android:orderInCategory="100"
+            android:title="Home"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/actionguide"
+            android:orderInCategory="100"
+            android:title="Buy a coupon"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/actionJeans"
+            android:orderInCategory="100"
+            android:title="Contact Us"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/actionAboutus"
+            android:orderInCategory="100"
+            android:title="About Us"
+            app:showAsAction="never" />
+
+
+
+
+    </group>
+
+</menu>
